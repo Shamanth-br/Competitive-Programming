@@ -11,7 +11,7 @@
 <p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> s = "cbbd"
-<strong>Output:</strong> "bb"
+<strong>Output :</strong> "bb"
 </pre>
 
 <p>&nbsp;</p>
