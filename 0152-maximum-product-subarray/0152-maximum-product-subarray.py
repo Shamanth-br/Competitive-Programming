@@ -16,7 +16,6 @@ class Solution:
                 pre = 1
             if nums[j] == 0:
                 post = 1
-            print('pre,post,largest = ',(pre,post,largest))
             j -= 1
         if largest < 0 and zero == 1:
             return 0
