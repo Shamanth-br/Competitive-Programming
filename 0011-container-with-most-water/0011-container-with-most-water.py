@@ -1,5 +1,6 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
+        # check both height and increment or decrement for the maller height.
         width = len(height)-1
         water = min(height[0],height[-1])* width
         i,j = 0,width
