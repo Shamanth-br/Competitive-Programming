@@ -2,7 +2,7 @@ class Solution:
     def maxArea(self, height: List[int]) -> int:
         width = len(height)-1
         water = min(height[0],height[-1])* width
-        i,j = 0,len(height)-1
+        i,j = 0,width
         while(i < j):
             if height[i] < height[j]:
                 i += 1
