@@ -14,7 +14,7 @@
 <strong>Explanation:</strong> The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
 </pre>
 
-<p><strong class="example">Example 2:</strong></p>
+<p><strong class="example">Example 2 :</strong></p>
 
 <pre><strong>Input:</strong> height = [1,1]
 <strong>Output:</strong> 1
