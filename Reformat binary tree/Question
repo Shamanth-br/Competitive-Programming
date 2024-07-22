@@ -1,0 +1,12 @@
+Find the parent nodes of leaf nodes in a hierarchical tree structure represented as a list of dictionaries in Python.
+Input: nodes = [
+    {"name": "a", "children": [{"name": "b"}, {"name": "c"}]},
+    {"name": "b", "children": [{"name": "d"}]},
+    {"name": "c", "children": []},
+    {"name": "d", "children": []}
+]
+
+Required Output: [
+  {'name': 'c', 'parent': {'name': 'a'}}, 
+  {'name': 'd', 'parent': {'name': 'a', 'parent': {'name': 'b'}}}
+]
